@@ -33,5 +33,6 @@ namespace Tarea_4.DataBase_FIsico
         public virtual ICollection<DetallesCompra> DetallesCompras { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<DetallesFactura> DetallesFacturas { get; set; }
+        public object Categorias { get; internal set; }
     }
 }

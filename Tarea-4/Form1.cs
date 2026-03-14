@@ -19,7 +19,7 @@ namespace Tarea_4
 
         private void ventasToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FrmVentas frm = new FrmVentas();
+            Ventas frm = new Ventas();
             frm.MdiParent = this; // Establecer el formulario principal como padre
             frm.Show(); // Mostrar el formulario de ventas
 
